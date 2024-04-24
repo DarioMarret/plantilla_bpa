@@ -1,0 +1,21 @@
+.sub-menu{
+    display: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: height 0.5s ease;
+    overflow: hidden;
+}
+
+.sub-menu .collase{
+    display: block;
+}
+
+.widthSidebar{
+    border: solid 1px #e7e7e7;
+    background: #000;
+}
+
+.pace-done{
+    display: none;
+}

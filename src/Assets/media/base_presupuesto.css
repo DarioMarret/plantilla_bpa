@@ -1,0 +1,372 @@
+.diente {
+
+    position: static;
+
+    width: 36px;
+
+    right: 10px;
+
+    height: auto;
+
+    margin: 0px 2px ;
+
+    padding-top: 10px ;
+
+    padding-bottom: 0px ;
+
+    display: inline-block;
+
+}
+
+.diente-leche {
+
+    position: relative;
+
+    width: 36px;
+
+    padding-bottom: 0px ;
+
+    padding-top: 2px ;
+
+    height: 150px;
+
+    margin: 0px 2px;
+
+    display: inline-block;
+
+}
+
+.pieza {
+
+   position: relative;
+
+    margin: 0em 0.3px 0.3px -0.3px;
+
+    left: 0px;
+
+}
+
+.circlebox {
+
+    position: relative;
+
+    margin: 0.8em 0px;
+
+    width: 25px; height: 25px;
+
+    border-radius: 20%;
+
+    border-top: 7px solid #90b9b8;
+
+    border-right: 7px solid #90b9b8;
+
+    border-bottom: 7px solid #90b9b8;
+
+    border-left: 7px solid #90b9b8;
+
+    background: #c7ced6;
+
+    left: 5px;
+
+}
+
+.circle {
+
+    position: relative;
+
+    margin: 0.8em 0px;
+
+    width: 15px; height: 15px;
+
+    border-radius: 50%;
+
+    background: #c7ced6;
+
+    left: 5px;
+
+}
+
+.arct {
+
+    overflow: hidden;
+
+    position: absolute;
+
+    top: -0.7em;
+
+    right: 50%;
+
+    bottom: 50%;
+
+    left: -0.7em;
+
+    transform-origin: 100% 100%;
+
+    transform: rotate(49deg) skewX(10deg);
+
+}
+
+.arct:before {
+
+    box-sizing: border-box;
+
+    display: block;
+
+    border: solid 0.5em #c7ced6;
+
+    width: 200%; height: 200%;
+
+    border-radius: 50%;
+
+    transform: skewX(-10deg);
+
+    content: '';
+
+}
+
+.arcr {
+
+    overflow: hidden;
+
+    position: absolute;
+
+    top: -0.7em;
+
+    right: 50%;
+
+    bottom: 50%;
+
+    left: -0.7em;
+
+    transform-origin: 100% 100%;
+
+    transform: rotate(138deg) skewX(10deg);
+
+}
+
+.arcr:before {
+
+    box-sizing: border-box;
+
+    display: block;
+
+    border: solid 0.5em #c7ced6;
+
+    width: 200%;
+
+    height: 200%;
+
+    border-radius: 50%;
+
+    transform: skewX(-10deg);
+
+    content: '';
+
+}
+
+.arcb {
+
+    overflow: hidden;
+
+    position: absolute;
+
+    top: -0.7em;
+
+    right: 50%;
+
+    bottom: 50%;
+
+    left: -0.7em;
+
+    transform-origin: 100% 100%;
+
+    transform: rotate(228deg) skewX(10deg);
+
+}
+
+.arcb:before {
+
+    box-sizing: border-box;
+
+    display: block;
+
+    border: solid 0.5em #c7ced6;
+
+    width: 200%; height: 200%;
+
+    border-radius: 50%;
+
+    transform: skewX(-10deg);
+
+    content: '';
+
+}
+
+.arcl {
+
+    overflow: hidden;
+
+    position: absolute;
+
+    top: -0.7em;
+
+    right: 50%;
+
+    bottom: 50%;
+
+    left: -0.7em;
+
+    transform-origin: 100% 100%;
+
+    transform: rotate(319deg) skewX(10deg);
+
+}
+
+.arcl:before {
+
+    box-sizing: border-box;
+
+    display: block;
+
+    border: solid 0.5em #c7ced6;
+
+    width: 200%;
+
+    height: 200%;
+
+    border-radius: 50%;
+
+    transform: skewX(-10deg);
+
+    content: '';
+
+}
+
+.cuadro {
+
+    background-color: #FFFFFF;
+
+    border: 1px solid #7F7F7F;
+
+    position: relative;
+
+    width: 25px;
+
+    height: 15px;
+
+    left: 45px;
+
+    -webkit-border-radius:  25px 25px 0px 15px;
+
+    -moz-border-radius:  25px 25px 0px 15px;
+
+    border-radius:  25px 25px 0px 15px;
+
+}
+
+
+
+.cuadro:hover {
+
+    /*background: rgba(117, 198, 243, 0.4);*/
+
+    
+
+    cursor: pointer;
+
+}
+
+
+
+#tlr {
+
+    border-bottom: 1px dashed #ff0002;
+
+    /*border-right: 1px solid #ff0002;*/
+
+}
+
+#tr {
+
+  border-right: 1px solid #ff0002;
+
+    padding-left: 30px;
+
+}
+
+#tll {
+
+border-bottom: 1px dashed #ff0002;
+
+border-left: 1px dashed #d0eee9;
+
+}
+
+#tl {
+
+border-left: 1px dashed #d0eee9;
+
+}
+
+
+
+#blr {
+
+/*border-right: 1px solid black;*/
+
+}
+
+#br {
+
+ border-right: 1px solid #ff0002;
+
+    padding-left: 30px;
+
+}
+
+#bl {
+
+border-left: 1px dashed #d0eee9;
+
+}
+
+#bll {
+
+border-left: 1px dashed #d0eee9;
+
+}
+
+.click-red {
+
+background-color: red !important;
+
+}
+
+
+
+.click-blue {
+
+background-color: blue;
+
+}
+
+
+
+.click-delete {
+
+background-color: #747F7D !important;
+
+}
+
+
+
+.kill {
+
+background-color: green;
+
+}
+
+
+
+
+

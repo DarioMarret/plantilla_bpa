@@ -1,0 +1,125 @@
+{
+  "messages": [
+    {
+      "id": "dcjnv9i5z3cia0an47wpjd29",
+      "type": "text",
+      "content": {
+        "richText": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "*Para registrar un pago sigue las siguientes indicaciones*"
+              }
+            ]
+          },
+          { "type": "p", "children": [{ "text": "" }] },
+          { "type": "p", "children": [{ "text": "" }] },
+          { "type": "p", "children": [{ "text": "" }] },
+          {
+            "type": "p",
+            "children": [{ "text": "* _Captura del comprobante legible_" }]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "* _Comprobante a nombre de Universidad Estatal Península de Santa Elena_"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "* _Estar destinado a unas de las cuenta de la institución_"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "* _El comprobante puede ser de transferencia, deposito, banco del barrio o mi vecino_"
+              }
+            ]
+          },
+          { "type": "p", "children": [{ "text": "" }] },
+          { "type": "p", "children": [{ "text": "" }] }
+        ]
+      }
+    }
+  ],
+  "input": {
+    "id": "nxfjb9da43m6132208s0by8c",
+    "type": "choice input",
+    "items": [
+      {
+        "id": "leuwt16qhva37u7aqqwef6n5",
+        "outgoingEdgeId": "birwkabrm8wein1f3c1bp26a",
+        "content": "De acuerdo"
+      },
+      {
+        "id": "bk61efhv5mpyoe9nsglqqfse",
+        "outgoingEdgeId": "d9o4l6h2ebohjpz71shsie6b",
+        "content": "Salir"
+      }
+    ],
+    "options": {
+      "isSearchable": true,
+      "searchInputPlaceholder": "Por favor selecciones una de las siguientes opciones"
+    }
+  },
+  "logs": [
+    {
+      "status": "success",
+      "description": "Webhook successfuly executed.",
+      "details": {
+        "statusCode": 200,
+        "response": {
+          "success": true,
+          "data": [
+            {
+              "id": 1,
+              "identificacion": "0924275779",
+              "nombres": null,
+              "apellidos": "SANCHEZ AQUINO",
+              "ciudad": "",
+              "barrio": "Sin barrio",
+              "direccion": "Sin dirección ",
+              "telefono": "000000000",
+              "celular": "0998888888",
+              "email_personal": "jsanchez@upse.edu.ec",
+              "email_institucional": "jsanchez@upse.edu.ec"
+            }
+          ],
+          "message": "Se ha listado correctamente"
+        },
+        "request": {
+          "url": "http://190.15.142.22:8080/api/buscador?cedula=092427577",
+          "method": "GET",
+          "headers": {},
+          "timeout": {}
+        }
+      }
+    },
+    {
+      "status": "success",
+      "description": "Webhook successfuly executed.",
+      "details": {
+        "statusCode": 200,
+        "response": {
+          "success": true,
+          "message": "Se ha listado correctamente",
+          "data": []
+        },
+        "request": {
+          "url": "http://190.15.142.22:8080/api/deuda?cedula=092427577",
+          "method": "GET",
+          "headers": {},
+          "timeout": {}
+        }
+      }
+    }
+  ]
+}
